@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import API_BASE_URL from "../config/api";
+import API_BASE_URL from "../../config/api";
 
 export default function RegisterPage() {
   const [username, setUsername] = useState("");
